@@ -65,3 +65,58 @@
 .offer-img {
   text-align: center;
 }
+
+/* Vactore styles */
+.vactor {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  max-width: 1320px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin: 99px auto;
+  border-radius: 15px;
+}
+.vactor-text {
+  padding: 103px 77px 244px 103px;
+}
+
+.vactor-text h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.vactor-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.vactor-text button {
+  color: #fff;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 0, 0, 0);
+  border: none;
+  font-family: Inter;
+  border: none;
+}
+.vactor-text button:hover {
+  background-color: rgb(255, 0, 0);
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.vector-img {
+  padding: 56px 113px 55px 32px;
+}
+/* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
