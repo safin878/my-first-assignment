@@ -1,0 +1,67 @@
+/* Main Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* banner styles */
+.banner {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  max-width: 1320px;
+  margin: 41px auto;
+  border-radius: 16px;
+}
+
+.banner .banner-text {
+  position: relative;
+  top: 33%;
+}
+.banner .banner-title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner .banner-description {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+/* Offer section */
+
+/* .offer-text {
+  max-width: 802px;
+  justify-content: center;
+  margin: 0 auto;
+} */
+
+.offer-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.offer-description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.offer-sub-title {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+.offer-img {
+  text-align: center;
+}
