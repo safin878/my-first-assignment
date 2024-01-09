@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Main Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
@@ -407,4 +412,77 @@
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
+}
+
+/* footer styles  */
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #070211;
+}
+
+.info {
+  /* width: 100%;
+  height: 100%; */
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  padding: 120px 0px 50px 0px;
+}
+
+.info-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 1320px;
+  position: relative;
+  top: 15%;
+}
+
+.contact {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 1320px;
+  /* position: relative;
+  top: 15%; */
+}
+
+.social-media {
+  text-align: center;
+}
+/* .social-media img {
+  
+} */
+.social-media hr {
+  width: 1320px;
+  margin: 0 auto;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+.fle {
+  display: flex;
+  gap: 12px;
 }
